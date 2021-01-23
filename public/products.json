@@ -1,0 +1,164 @@
+{
+	"products": [
+		{
+			"name": "Crab - Blue, Frozen",
+			"price": 100,
+			"url": "https://i.pinimg.com/236x/6f/4f/68/6f4f68326e85b3ec80d922ca482a5e2d.jpg",
+			"color": "Purple",
+			"randomInt": 1985,
+			"favourite": false
+		},
+		{
+			"name": "The Pop Shoppe - Grape",
+			"price": 1,
+			"url": "https://i.pinimg.com/564x/fd/13/69/fd13698867e26a123d1bb5150436306f.jpg",
+			"color": "Purple",
+			"randomInt": 2002,
+			"favourite": false
+		},
+		{
+			"name": "Potatoes - Yukon Gold 5 Oz",
+			"price": 79,
+			"url": "https://i.pinimg.com/564x/98/83/d9/9883d92a3fc99784248831b378ba1cc1.jpg",
+			"color": "Red",
+			"randomInt": 2004,
+			"favourite": false
+		},
+		{
+			"name": "Scallops - Live In Shell",
+			"price": 73,
+			"url": "https://i.pinimg.com/564x/ed/7a/56/ed7a566727a148473993fb153fc7b256.jpg",
+			"color": "Yellow",
+			"randomInt": 2004,
+			"favourite": false
+		},
+		{
+			"name": "Coffee Guatemala Dark",
+			"price": 92,
+			"url": "https://i.pinimg.com/564x/8c/31/65/8c31657a8ef0794b56ed1486309804c1.jpg",
+			"color": "Khaki",
+			"randomInt": 1995,
+			"favourite": false
+		},
+		{
+			"name": "Noodles - Steamed Chow Mein",
+			"price": 22,
+			"url": "https://i.pinimg.com/564x/ff/e1/15/ffe1157e141c1f57d19ebd50bcdc6e6a.jpg",
+			"color": "Teal",
+			"randomInt": 2012,
+			"favourite": false
+		},
+		{
+			"name": "Haggis",
+			"price": 59,
+			"url": "https://i.pinimg.com/564x/70/4b/9c/704b9ce19467e8b2d8ce72e79e10af77.jpg",
+			"color": "Goldenrod",
+			"randomInt": 1996,
+			"favourite": false
+		},
+		{
+			"name": "Carbonated Water - Blackberry",
+			"price": 31,
+			"url": "https://i.pinimg.com/564x/ff/15/7c/ff157c37458a560865a5952bfad6ee4b.jpg",
+			"color": "Aquamarine",
+			"randomInt": 1998,
+			"favourite": false
+		},
+		{
+			"name": "Wine - Domaine Boyar Royal",
+			"price": 4,
+			"url": "https://i.pinimg.com/564x/3e/75/52/3e7552b0d1f19929fa1ddac96dc17a41.jpg",
+			"color": "Mauv",
+			"randomInt": 2009,
+			"favourite": false
+		},
+		{
+			"name": "Muffin Carrot - Individual",
+			"price": 24,
+			"url": "https://i.pinimg.com/564x/71/68/3f/71683f89f0e1b45592e64fa8d541b3b1.jpg",
+			"color": "Violet",
+			"randomInt": 2001,
+			"favourite": false
+		},
+		{
+			"name": "Bread - Pumpernickel",
+			"price": 46,
+			"url": "https://i.pinimg.com/564x/fd/eb/ff/fdebffb0428fc0f059d6eb46581f95e5.jpg",
+			"color": "Indigo",
+			"randomInt": 2011,
+			"favourite": false
+		},
+		{
+			"name": "Tuna - Salad Premix",
+			"price": 83,
+			"url": "https://i.pinimg.com/564x/ea/5f/6f/ea5f6f1801db072f65ec4a03c36890d0.jpg",
+			"color": "Teal",
+			"randomInt": 2004,
+			"favourite": false
+		},
+		{
+			"name": "Red Pepper Paste",
+			"price": 50,
+			"url": "https://i.pinimg.com/564x/90/96/f8/9096f84f91d1e0bce6d6de0866409326.jpg",
+			"color": "Fuscia",
+			"randomInt": 2008,
+			"favourite": false
+		},
+		{
+			"name": "Wine - Ice Wine",
+			"price": 79,
+			"url": "https://i.pinimg.com/564x/86/4b/56/864b56e24078e3a8778419481bc3dbf5.jpg",
+			"color": "Orange",
+			"randomInt": 2008,
+			"favourite": false
+		},
+		{
+			"name": "Cumin - Whole",
+			"price": 89,
+			"url": "https://i.pinimg.com/564x/79/13/82/7913820578be5f2eef39c157c5965c65.jpg",
+			"color": "Fuscia",
+			"randomInt": 2010,
+			"favourite": false
+		},
+		{
+			"name": "Island Oasis - Ice Cream Mix",
+			"price": 68,
+			"url": "https://i.pinimg.com/564x/8c/31/65/8c31657a8ef0794b56ed1486309804c1.jpg",
+			"color": "Violet",
+			"randomInt": 1985,
+			"favourite": false
+		},
+		{
+			"name": "Quail - Jumbo Boneless",
+			"price": 35,
+			"url": "https://i.pinimg.com/564x/04/1d/bb/041dbbc012207b1bca97262950f80f8f.jpg",
+			"color": "Blue",
+			"randomInt": 2006,
+			"favourite": false
+		},
+		{
+			"name": "Kiwi Gold Zespri",
+			"price": 96,
+			"url": "https://i.pinimg.com/564x/16/2b/a9/162ba9b62eb3d80b53664f7dda22ee28.jpg",
+			"color": "Crimson",
+			"randomInt": 1992,
+			"favourite": false
+		},
+		{
+			"name": "Nut - Chestnuts, Whole",
+			"price": 67,
+			"url": "https://i.pinimg.com/564x/85/f3/3c/85f33c966d11fef27fa1b79cffa3e9f2.jpg",
+			"color": "Mauv",
+			"randomInt": 2000,
+			"favourite": false
+		},
+		{
+			"name": "Shichimi Togarashi Peppeers",
+			"price": 5,
+			"url": "https://i.pinimg.com/564x/9b/1a/07/9b1a0790d65b67c6a4cd09c53d0b1cf5.jpg",
+			"color": "Aquamarine",
+			"randomInt": 2007,
+			"favourite": false
+		}
+	]
+}
