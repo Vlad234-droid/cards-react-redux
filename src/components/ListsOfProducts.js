@@ -18,59 +18,60 @@ const mapStateToPRops = (state) => ({
 	fav: state.fav,
 });
 
-const ListsOfProducts = connect(mapStateToPRops, {getDataR, setData})(
-	({dataR, getDataR, toggle, setData, fav}) => {
-		const favouriteHandler = (dataR, url) => {
-			const dataFilter = dataR.find((item) => item.url === url);
-			const newState = [...dataR];
-			for (let item of newState) {
-				if (item.name === dataFilter.name) {
-					item.favourite = !item.favourite;
-				}
+const ListsOfProducts = connect(mapStateToPRops, {
+	getDataR,
+	setData,
+})(({dataR, getDataR, toggle, setData, fav}) => {
+	const favouriteHandler = (dataR, url) => {
+		const dataFilter = dataR.find((item) => item.url === url);
+		const newState = [...dataR];
+		for (let item of newState) {
+			if (item.name === dataFilter.name) {
+				item.favourite = !item.favourite;
 			}
-			setData(newState);
-		};
+		}
+		setData(newState);
+	};
 
-		useEffect(() => {
-			getDataR();
-		}, [getDataR]);
+	useEffect(() => {
+		getDataR();
+	}, [getDataR]);
 
-		return (
-			<>
-				<Header />
-				<Switch>
-					<Route exact path="/">
-						<WrapperInfo>
-							{dataR.length && (
-								<ProductList>
-									{dataR.map((item, i) => (
-										<Card
-											favourite={item.favourite}
-											key={i}
-											name={item.name}
-											price={item.price}
-											url={item.url}
-											color={item.color}
-											favouriteHandler={favouriteHandler}
-										/>
-									))}
-								</ProductList>
-							)}
-						</WrapperInfo>
-					</Route>
+	return (
+		<>
+			<Header />
+			<Switch>
+				<Route exact path="/">
+					<WrapperInfo>
+						{dataR.length && (
+							<ProductList>
+								{dataR.map((item, i) => (
+									<Card
+										favourite={item.favourite}
+										key={i}
+										name={item.name}
+										price={item.price}
+										url={item.url}
+										color={item.color}
+										favouriteHandler={favouriteHandler}
+									/>
+								))}
+							</ProductList>
+						)}
+					</WrapperInfo>
+				</Route>
 
-					<Route path="/cart">
-						<Cart />
-					</Route>
-					<Route path="/like">
-						<LikedCards favouriteHandler={favouriteHandler} />
-					</Route>
-				</Switch>
-				{toggle && <Modal />}
-			</>
-		);
-	}
-);
+				<Route path="/cart">
+					<Cart />
+				</Route>
+				<Route path="/like">
+					<LikedCards favouriteHandler={favouriteHandler} />
+				</Route>
+			</Switch>
+			{toggle && <Modal />}
+		</>
+	);
+});
 
 const ProductList = styled.div`
 	width: 95%;

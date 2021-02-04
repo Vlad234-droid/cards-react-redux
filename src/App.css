@@ -12,3 +12,28 @@
 .href:hover {
 	color: black;
 }
+.toggleLeft {
+	margin-right: 20%;
+}
+.App {
+	transition: all 0.5s ease;
+}
+.checkOutBox {
+	position: fixed;
+	top: 15%;
+	right: 0;
+	width: 20rem;
+	height: 50%;
+	background-color: white;
+	box-shadow: 2px 2px 50px rgb(204, 204, 204);
+	overflow: scroll;
+	transform: translateX(100%);
+	transition: all 0.5s ease;
+	border-radius: 20px;
+	opacity: 0;
+	padding: 30px;
+}
+.active-checkOutBox {
+	transform: translateX(-5%);
+	opacity: 1;
+}
